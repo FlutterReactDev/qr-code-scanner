@@ -12,7 +12,7 @@ function App() {
 
     return (
         <>
-            <video ref={ref} />
+            <video ref={ref} height={400}/>
             <p>
                 <span>Last result:</span>
                 <span>{result}</span>
